@@ -7,10 +7,10 @@ type Profile = {
     country: string;
 };
 
-const profile = {
+const profile: Profile = {
     name: "Mauro",
     age: 50,
-    favoriteHobby: "Playing video games",
+    favoriteHobby: "playing video games",
     isLearningToCode: true,
     yearsCoding: 0,
     country: "Brazil"
